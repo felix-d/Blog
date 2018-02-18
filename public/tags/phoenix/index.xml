@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Phoenix on Software Rambles</title>
+    <link>/tags/phoenix/</link>
+    <description>Recent content in Phoenix on Software Rambles</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 18 Feb 2018 12:56:42 -0500</lastBuildDate>
+    
+	<atom:link href="/tags/phoenix/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dockerizing Phoenix</title>
+      <link>/posts/dockerizing-phoenix/</link>
+      <pubDate>Sun, 18 Feb 2018 12:56:42 -0500</pubDate>
+      
+      <guid>/posts/dockerizing-phoenix/</guid>
+      <description>As I dabble more and more with Elixir and Phoenix, I was looking into an efficient way to Dockerize Phoenix applications. Although they are not totally incompatible in practice, using Docker makes sense if you don&amp;rsquo;t rely on hot code upgrades.
+I wanted my containers to use a base Alpine image and Distillery releases to be as lightweight as possible.
+I ended up leveraging multi-stage builds to write my Dockerfile. It uses three different stages.</description>
+    </item>
+    
+  </channel>
+</rss>

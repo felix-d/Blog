@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Software Rambles</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Software Rambles</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 18 Feb 2018 12:56:42 -0500</lastBuildDate>
+    
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Docker</title>
+      <link>/tags/docker/</link>
+      <pubDate>Sun, 18 Feb 2018 12:56:42 -0500</pubDate>
+      
+      <guid>/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Elixir</title>
+      <link>/tags/elixir/</link>
+      <pubDate>Sun, 18 Feb 2018 12:56:42 -0500</pubDate>
+      
+      <guid>/tags/elixir/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Phoenix</title>
+      <link>/tags/phoenix/</link>
+      <pubDate>Sun, 18 Feb 2018 12:56:42 -0500</pubDate>
+      
+      <guid>/tags/phoenix/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

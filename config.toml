@@ -1,0 +1,60 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "Software Rambles"
+theme = "hugo_theme_pickles"
+copyright = "Copyright &copy; 2018"
+pygmentsUseClassic=true
+pygmentsStyle="borland"
+disqusShortname = "software-rambles"
+
+[params]
+  paginate = 10
+  github = "felix-d"
+  linkedin = "fdesc"
+  disqus = "disqus_mkEt0PKl9s"
+  ga_api_key = "UA-114373157-1"
+  author = "Félix Descôteaux"
+  avatar = "/avatar.png"
+  contact = "mailto:flx.descoteaux@gmail.com"
+  bio = "I currently work as a senior software developer at Shopify. I'm curious about every software and web development technology that is worth looking into."
+  subtitle = "By Félix Descôteaux"
+  logo = "/path/to/logo"
+  favicon = "/path/to/favicon"
+
+[taxinomies]
+    tag = "tags"
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 4
+
+[[menu.main]]
+    name = "Tags"
+    url = "/tags"
+    weight = 4
+
+[related]
+  # Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.
+  threshold = 80
+
+  # To get stable "See also" sections we, by default, exclude newer related pages.
+  includeNewer = false
+
+  # Will lower case keywords in both queries and in the indexes.
+  toLower = false
+
+  [[related.indices]]
+  name = "keywords"
+  weight = 150
+  [[related.indices]]
+  name  = "author"
+  toLower = true
+  weight = 30
+  [[related.indices]]
+  name  = "tags"
+  weight = 100
+  [[related.indices]]
+  name  = "date"
+  weight = 10
+  pattern = "2017"
